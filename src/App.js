@@ -204,9 +204,9 @@ function App() {
                   <td>
                     {new Intl.NumberFormat(item.code, {
                       style: 'percent',
-                      minimumFractionDigits: 2,
+                      minimumFractionDigits: 0,
                       maximumFractionDigits: 2,
-                    }).format(Math.PI / 10)}
+                    }).format(0.45)}
                   </td>
                 </tr>
               ))
